@@ -160,11 +160,11 @@ fun LemonTextAndImage(
             Text(text = "Juan Steban Diaz",
                 modifier = Modifier
                     .background(
-                        color = Color(231, 155, 248),
+                        color = Color(252, 255, 33),
                         shape = roundedCornerShape
                     )
                     .padding(10.dp),
-                fontSize = 15.sp,
+                fontSize = 20.sp,
                 fontWeight = FontWeight.Bold
 
             )
