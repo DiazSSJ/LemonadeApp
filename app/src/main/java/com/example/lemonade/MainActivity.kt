@@ -172,7 +172,7 @@ fun LemonTextAndImage(
             Button(
                 onClick = onImageClick,
                 shape = RoundedCornerShape(dimensionResource(R.dimen.button_corner_radius)),
-                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.tertiaryContainer)
+                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.outline)
             ) {
                 Image(
                     painter = painterResource(drawableResourceId),
